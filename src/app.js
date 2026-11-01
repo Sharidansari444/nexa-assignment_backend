@@ -41,6 +41,14 @@ app.use(
   })
 );
 
+// Root endpoint
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: 'NexaChain API is running',
+  });
+});
+
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   res.json({
