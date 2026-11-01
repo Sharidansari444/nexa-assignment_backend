@@ -1,0 +1,23 @@
+[2026-11-01 00:05:31] [ERROR]: Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (C:\Users\Admin\Desktop\nexa-assignment\backend\node_modules\express\lib\application.js:635:24)
+    at startServer (C:\Users\Admin\Desktop\nexa-assignment\backend\src\server.js:28:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2026-11-01 00:25:32] [ERROR]: Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (C:\Users\Admin\Desktop\nexa-assignment\backend\node_modules\express\lib\application.js:635:24)
+    at startServer (C:\Users\Admin\Desktop\nexa-assignment\backend\src\server.js:28:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2026-11-01 00:38:04] [ERROR]: Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (C:\Users\Admin\Desktop\nexa-assignment\backend\node_modules\express\lib\application.js:635:24)
+    at startServer (C:\Users\Admin\Desktop\nexa-assignment\backend\src\server.js:28:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2026-11-01 14:38:00] [ERROR]: Token verification failed: connect EACCES 159.41.207.19:27017
+[2026-11-01 14:38:20] [ERROR]: Token verification failed: connect EACCES 159.41.207.19:27017

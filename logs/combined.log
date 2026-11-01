@@ -1,0 +1,328 @@
+[2026-10-31 23:32:34] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-02.uhpzdgm.mongodb.net/test
+[2026-10-31 23:32:36] [INFO]: ✅ Super Admin auto-seeded successfully: admin@nexachain.ai
+[2026-10-31 23:32:36] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-10-31 23:32:36] [INFO]: 🚀 NexaChain API server running in [development] mode on port 5000
+[2026-10-31 23:35:08] [INFO]: GET /api/health 200 115 - 16.002 ms
+[2026-10-31 23:35:30] [INFO]: Admin successfully authenticated: admin@nexachain.ai
+[2026-10-31 23:35:30] [INFO]: POST /api/auth/admin-login 200 446 - 254.777 ms
+[2026-10-31 23:36:54] [INFO]: Admin successfully authenticated: admin@nexachain.ai
+[2026-10-31 23:36:54] [INFO]: POST /api/auth/admin-login 200 446 - 481.812 ms
+[2026-10-31 23:36:56] [INFO]: New user registered successfully: alice_1793470014921@example.com (RefCode: NEXA7FAFF5)
+[2026-10-31 23:36:56] [INFO]: POST /api/auth/register 201 573 - 1517.799 ms
+[2026-10-31 23:36:57] [INFO]: Binding new user (bob_1793470016445@example.com) under parent (alice_1793470014921@example.com)
+[2026-10-31 23:36:57] [INFO]: New user registered successfully: bob_1793470016445@example.com (RefCode: NEXAA66F10)
+[2026-10-31 23:36:57] [INFO]: POST /api/auth/register 201 589 - 1194.593 ms
+[2026-10-31 23:36:58] [INFO]: Binding new user (charlie_1793470017644@example.com) under parent (bob_1793470016445@example.com)
+[2026-10-31 23:36:58] [INFO]: New user registered successfully: charlie_1793470017644@example.com (RefCode: NEXA702517)
+[2026-10-31 23:36:58] [INFO]: POST /api/auth/register 201 597 - 1202.832 ms
+[2026-10-31 23:37:01] [INFO]: New investment created: 6ae62e42689fd5d0a1756ae2 ($1000) for user: 6ae62e42689fd5d0a1756adf
+[2026-10-31 23:37:07] [INFO]: Level 1 Commission: Credited $50 (5%) to bob_1793470016445@example.com from charlie_1793470017644@example.com's $1000 investment
+[2026-10-31 23:37:07] [INFO]: Level 2 Commission: Credited $30 (3%) to alice_1793470014921@example.com from charlie_1793470017644@example.com's $1000 investment
+[2026-10-31 23:37:07] [INFO]: POST /api/investments 201 854 - 9082.243 ms
+[2026-10-31 23:37:08] [INFO]: GET /api/auth/me 200 459 - 302.943 ms
+[2026-10-31 23:37:08] [INFO]: GET /api/auth/me 200 338 - 341.359 ms
+[2026-10-31 23:37:09] [INFO]: GET /api/referrals/tree 200 673 - 462.627 ms
+[2026-10-31 23:37:09] [INFO]: ⚡ [Admin Action] Manual Daily ROI triggered by admin: admin@nexachain.ai
+[2026-10-31 23:37:09] [INFO]: 🔄 [ROI Engine] Starting Daily ROI processing for date: 2026-10-31
+[2026-10-31 23:37:09] [INFO]: [ROI Engine] Credited $20 to charlie_1793470017644@example.com (Investment: 6ae62e42689fd5d0a1756ae2)
+[2026-10-31 23:37:09] [INFO]: ✅ [ROI Engine] Finished daily ROI processing for 2026-10-31. Credited: 1, Skipped: 0, Total Distributed: $20
+[2026-10-31 23:37:09] [INFO]: POST /api/admin/trigger-roi 200 393 - 913.630 ms
+[2026-10-31 23:37:10] [INFO]: ⚡ [Admin Action] Manual Daily ROI triggered by admin: admin@nexachain.ai
+[2026-10-31 23:37:10] [INFO]: 🔄 [ROI Engine] Starting Daily ROI processing for date: 2026-10-31
+[2026-10-31 23:37:10] [DEBUG]: [ROI Engine] Idempotency guard: ROI for investment 6ae62e42689fd5d0a1756ae2 already exists for 2026-10-31. Skipping.
+[2026-10-31 23:37:10] [INFO]: ✅ [ROI Engine] Finished daily ROI processing for 2026-10-31. Credited: 0, Skipped: 1, Total Distributed: $0
+[2026-10-31 23:37:10] [INFO]: POST /api/admin/trigger-roi 200 408 - 500.391 ms
+[2026-10-31 23:37:19] [INFO]: GET /api/dashboard/stats 200 1133 - 8901.654 ms
+[2026-11-01 00:00:00] [INFO]: ⏰ [Cron Job] Midnight ROI Scheduler triggered automatically...
+[2026-11-01 00:00:00] [INFO]: 🔄 [ROI Engine] Starting Daily ROI processing for date: 2026-10-31
+[2026-11-01 00:00:09] [DEBUG]: [ROI Engine] Idempotency guard: ROI for investment 6ae62e42689fd5d0a1756ae2 already exists for 2026-10-31. Skipping.
+[2026-11-01 00:00:09] [INFO]: ✅ [ROI Engine] Finished daily ROI processing for 2026-10-31. Credited: 0, Skipped: 1, Total Distributed: $0
+[2026-11-01 00:00:09] [INFO]: ⏰ [Cron Job] Completed successfully: Distributed $0 across 0 investments.
+[2026-11-01 00:05:31] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-01 00:05:31] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-01 00:06:16] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-01 00:06:16] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-01 00:06:16] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-11-01 00:06:16] [INFO]: 🚀 NexaChain API server running in [development] mode on port 5000
+[2026-11-01 00:11:17] [INFO]: New user registered successfully: test@gmail.com (RefCode: NEXA70A34A)
+[2026-11-01 00:11:17] [INFO]: POST /api/auth/register 201 547 - 821.465 ms
+[2026-11-01 00:11:17] [INFO]: GET /api/investments 200 43 - 376.597 ms
+[2026-11-01 00:11:17] [INFO]: GET /api/auth/me 200 310 - 438.344 ms
+[2026-11-01 00:11:17] [INFO]: GET /api/roi/history 200 39 - 438.806 ms
+[2026-11-01 00:11:18] [INFO]: GET /api/investments 304 - - 180.209 ms
+[2026-11-01 00:11:18] [INFO]: GET /api/roi/history 304 - - 184.067 ms
+[2026-11-01 00:11:18] [INFO]: GET /api/referrals/history 200 39 - 1203.197 ms
+[2026-11-01 00:11:18] [INFO]: GET /api/dashboard/stats 200 653 - 1259.756 ms
+[2026-11-01 00:11:19] [INFO]: GET /api/referrals/tree 200 177 - 1617.024 ms
+[2026-11-01 00:11:19] [INFO]: GET /api/referrals/history 304 - - 642.386 ms
+[2026-11-01 00:11:19] [INFO]: GET /api/auth/me 304 - - 687.766 ms
+[2026-11-01 00:11:19] [INFO]: GET /api/referrals/tree 304 - - 698.439 ms
+[2026-11-01 00:11:21] [INFO]: GET /api/dashboard/stats 304 - - 2366.870 ms
+[2026-11-01 00:11:21] [INFO]: GET /api/auth/me 304 - - 788.404 ms
+[2026-11-01 00:14:06] [INFO]: Admin successfully authenticated: admin@nexachain.ai
+[2026-11-01 00:14:06] [INFO]: POST /api/auth/admin-login 200 446 - 671.712 ms
+[2026-11-01 00:14:08] [INFO]: GET /api/auth/me 200 327 - 1624.291 ms
+[2026-11-01 00:14:09] [INFO]: GET /api/admin/users 200 2056 - 2424.171 ms
+[2026-11-01 00:14:09] [INFO]: GET /api/admin/investments 200 628 - 2424.030 ms
+[2026-11-01 00:14:11] [INFO]: GET /api/admin/stats 200 204 - 4577.557 ms
+[2026-11-01 00:14:11] [INFO]: GET /api/admin/investments 304 - - 2215.385 ms
+[2026-11-01 00:14:11] [INFO]: GET /api/admin/users 304 - - 2235.043 ms
+[2026-11-01 00:14:16] [INFO]: GET /api/admin/stats 304 - - 5013.760 ms
+[2026-11-01 00:14:20] [INFO]: User logged in: admin@nexachain.ai [admin]
+[2026-11-01 00:14:20] [INFO]: POST /api/auth/login 200 541 - 366.841 ms
+[2026-11-01 00:14:21] [INFO]: GET /api/investments 304 - - 654.163 ms
+[2026-11-01 00:14:21] [INFO]: GET /api/auth/me 304 - - 766.994 ms
+[2026-11-01 00:14:21] [INFO]: GET /api/roi/history 304 - - 653.076 ms
+[2026-11-01 00:14:21] [INFO]: GET /api/referrals/history 304 - - 634.604 ms
+[2026-11-01 00:14:22] [INFO]: GET /api/referrals/tree 200 193 - 1325.830 ms
+[2026-11-01 00:14:22] [INFO]: GET /api/investments 304 - - 782.547 ms
+[2026-11-01 00:14:22] [INFO]: GET /api/referrals/history 304 - - 786.860 ms
+[2026-11-01 00:14:22] [INFO]: GET /api/roi/history 304 - - 802.695 ms
+[2026-11-01 00:14:23] [INFO]: GET /api/referrals/tree 304 - - 929.536 ms
+[2026-11-01 00:14:24] [INFO]: GET /api/dashboard/stats 200 653 - 3143.385 ms
+[2026-11-01 00:14:24] [INFO]: GET /api/auth/me 401 78 - 0.644 ms
+[2026-11-01 00:14:27] [INFO]: GET /api/dashboard/stats 304 - - 3250.463 ms
+[2026-11-01 00:14:27] [INFO]: GET /api/auth/me 401 78 - 0.586 ms
+[2026-11-01 00:14:36] [INFO]: POST /api/auth/login 401 66 - 88.888 ms
+[2026-11-01 00:14:44] [INFO]: POST /api/auth/login 401 66 - 283.221 ms
+[2026-11-01 00:14:51] [INFO]: POST /api/auth/admin-login 401 50 - 405.233 ms
+[2026-11-01 00:14:57] [INFO]: Admin successfully authenticated: admin@nexachain.ai
+[2026-11-01 00:14:57] [INFO]: POST /api/auth/admin-login 200 446 - 295.087 ms
+[2026-11-01 00:14:57] [INFO]: GET /api/auth/me 304 - - 303.896 ms
+[2026-11-01 00:14:58] [INFO]: GET /api/admin/users 304 - - 407.311 ms
+[2026-11-01 00:14:58] [INFO]: GET /api/admin/investments 304 - - 401.886 ms
+[2026-11-01 00:14:58] [INFO]: GET /api/admin/users 304 - - 255.596 ms
+[2026-11-01 00:14:58] [INFO]: GET /api/admin/investments 304 - - 255.994 ms
+[2026-11-01 00:14:58] [INFO]: GET /api/admin/stats 304 - - 731.985 ms
+[2026-11-01 00:15:00] [INFO]: GET /api/admin/stats 304 - - 2185.843 ms
+[2026-11-01 00:15:13] [INFO]: User logged in: admin@nexachain.ai [admin]
+[2026-11-01 00:15:13] [INFO]: POST /api/auth/login 200 541 - 280.679 ms
+[2026-11-01 00:15:13] [INFO]: GET /api/auth/me 304 - - 307.047 ms
+[2026-11-01 00:15:13] [INFO]: GET /api/roi/history 304 - - 309.094 ms
+[2026-11-01 00:15:13] [INFO]: GET /api/investments 304 - - 328.287 ms
+[2026-11-01 00:15:13] [INFO]: GET /api/referrals/tree 304 - - 301.908 ms
+[2026-11-01 00:15:13] [INFO]: GET /api/referrals/history 304 - - 338.158 ms
+[2026-11-01 00:15:14] [INFO]: GET /api/referrals/history 304 - - 322.042 ms
+[2026-11-01 00:15:14] [INFO]: GET /api/roi/history 304 - - 371.305 ms
+[2026-11-01 00:15:14] [INFO]: GET /api/investments 304 - - 372.730 ms
+[2026-11-01 00:15:14] [INFO]: GET /api/referrals/tree 304 - - 379.930 ms
+[2026-11-01 00:15:14] [INFO]: GET /api/dashboard/stats 304 - - 1216.094 ms
+[2026-11-01 00:15:14] [INFO]: GET /api/auth/me 304 - - 159.323 ms
+[2026-11-01 00:15:16] [INFO]: GET /api/dashboard/stats 304 - - 2202.649 ms
+[2026-11-01 00:15:17] [INFO]: GET /api/auth/me 304 - - 737.510 ms
+[2026-11-01 00:16:25] [INFO]: POST /api/auth/login 401 66 - 942.740 ms
+[2026-11-01 00:16:41] [INFO]: POST /api/auth/login 401 70 - 303.698 ms
+[2026-11-01 00:17:03] [INFO]: User logged in: test@gmail.com [user]
+[2026-11-01 00:17:03] [INFO]: POST /api/auth/login 200 522 - 336.746 ms
+[2026-11-01 00:17:04] [INFO]: GET /api/roi/history 304 - - 521.809 ms
+[2026-11-01 00:17:04] [INFO]: GET /api/referrals/history 304 - - 527.868 ms
+[2026-11-01 00:17:04] [INFO]: GET /api/investments 304 - - 558.885 ms
+[2026-11-01 00:17:04] [INFO]: GET /api/auth/me 200 310 - 603.632 ms
+[2026-11-01 00:17:04] [INFO]: GET /api/referrals/tree 200 177 - 569.502 ms
+[2026-11-01 00:17:04] [INFO]: GET /api/roi/history 304 - - 189.234 ms
+[2026-11-01 00:17:04] [INFO]: GET /api/investments 304 - - 197.193 ms
+[2026-11-01 00:17:04] [INFO]: GET /api/referrals/history 304 - - 209.115 ms
+[2026-11-01 00:17:04] [INFO]: GET /api/referrals/tree 304 - - 211.760 ms
+[2026-11-01 00:17:04] [INFO]: GET /api/dashboard/stats 200 653 - 1244.472 ms
+[2026-11-01 00:17:05] [INFO]: GET /api/auth/me 304 - - 237.794 ms
+[2026-11-01 00:17:07] [INFO]: GET /api/dashboard/stats 304 - - 2401.172 ms
+[2026-11-01 00:17:08] [INFO]: GET /api/auth/me 304 - - 800.780 ms
+[2026-11-01 00:17:18] [INFO]: User logged in: admin@nexachain.ai [admin]
+[2026-11-01 00:17:18] [INFO]: POST /api/auth/login 200 541 - 467.403 ms
+[2026-11-01 00:17:20] [INFO]: GET /api/referrals/history 304 - - 1491.864 ms
+[2026-11-01 00:17:20] [INFO]: GET /api/referrals/tree 200 193 - 1498.296 ms
+[2026-11-01 00:17:20] [INFO]: GET /api/auth/me 200 327 - 1528.594 ms
+[2026-11-01 00:17:20] [INFO]: GET /api/roi/history 304 - - 1521.119 ms
+[2026-11-01 00:17:20] [INFO]: GET /api/investments 304 - - 1540.402 ms
+[2026-11-01 00:17:22] [INFO]: GET /api/referrals/history 304 - - 2643.843 ms
+[2026-11-01 00:17:23] [INFO]: GET /api/investments 304 - - 2900.435 ms
+[2026-11-01 00:17:23] [INFO]: GET /api/referrals/tree 304 - - 2921.902 ms
+[2026-11-01 00:17:23] [INFO]: GET /api/roi/history 304 - - 2919.035 ms
+[2026-11-01 00:17:26] [INFO]: GET /api/dashboard/stats 200 653 - 8170.953 ms
+[2026-11-01 00:17:26] [INFO]: GET /api/auth/me 401 78 - 0.712 ms
+[2026-11-01 00:17:31] [INFO]: GET /api/dashboard/stats 304 - - 4308.034 ms
+[2026-11-01 00:17:31] [INFO]: GET /api/auth/me 401 78 - 0.505 ms
+[2026-11-01 00:23:14] [INFO]: User logged in: test@gmail.com [user]
+[2026-11-01 00:23:14] [INFO]: POST /api/auth/login 200 522 - 1488.170 ms
+[2026-11-01 00:23:16] [INFO]: GET /api/auth/me 200 310 - 2108.186 ms
+[2026-11-01 00:23:22] [INFO]: GET /api/dashboard/stats 200 653 - 7671.590 ms
+[2026-11-01 00:23:27] [INFO]: GET /api/dashboard/stats 304 - - 4275.278 ms
+[2026-11-01 00:25:31] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-01.uhpzdgm.mongodb.net/test
+[2026-11-01 00:25:32] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-01 00:28:09] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-01 00:28:10] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-01 00:28:10] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-11-01 00:28:10] [INFO]: 🚀 NexaChain API server running in [development] mode on port 5000
+[2026-11-01 00:29:59] [INFO]: GET /api/auth/me 304 - - 2851.140 ms
+[2026-11-01 00:30:01] [INFO]: GET /api/auth/me 304 - - 2078.925 ms
+[2026-11-01 00:30:11] [INFO]: GET /api/dashboard/stats 304 - - 11944.417 ms
+[2026-11-01 00:30:21] [INFO]: GET /api/dashboard/stats 304 - - 9492.156 ms
+[2026-11-01 00:30:45] [INFO]: GET /api/dashboard/stats 304 - - 938.208 ms
+[2026-11-01 00:30:48] [INFO]: GET /api/dashboard/stats 304 - - 2985.966 ms
+[2026-11-01 00:32:04] [INFO]: GET /api/investments 304 - - 249.332 ms
+[2026-11-01 00:32:04] [INFO]: GET /api/investments 304 - - 473.920 ms
+[2026-11-01 00:32:06] [INFO]: GET /api/referrals/direct 200 41 - 427.103 ms
+[2026-11-01 00:32:06] [INFO]: GET /api/referrals/direct 304 - - 529.937 ms
+[2026-11-01 00:32:06] [INFO]: GET /api/referrals/tree?depth=5 200 177 - 1125.479 ms
+[2026-11-01 00:32:07] [INFO]: GET /api/roi/history 304 - - 313.763 ms
+[2026-11-01 00:32:07] [INFO]: GET /api/referrals/tree?depth=5 304 - - 417.660 ms
+[2026-11-01 00:32:07] [INFO]: GET /api/roi/history 304 - - 436.245 ms
+[2026-11-01 00:32:09] [INFO]: GET /api/referrals/history 304 - - 320.923 ms
+[2026-11-01 00:32:09] [INFO]: GET /api/referrals/history 304 - - 156.036 ms
+[2026-11-01 00:32:11] [INFO]: GET /api/dashboard/stats 304 - - 1012.611 ms
+[2026-11-01 00:32:12] [INFO]: GET /api/dashboard/stats 304 - - 846.248 ms
+[2026-11-01 00:32:16] [INFO]: GET /api/investments 304 - - 297.721 ms
+[2026-11-01 00:32:16] [INFO]: GET /api/investments 304 - - 315.560 ms
+[2026-11-01 00:32:18] [INFO]: GET /api/investments/plans 200 641 - 0.918 ms
+[2026-11-01 00:32:23] [INFO]: New investment created: 6ae63b3f0ccfa95f2a11694a ($50) for user: 6ae6364ca7b21d6e63a55c1f
+[2026-11-01 00:32:23] [INFO]: POST /api/investments 201 614 - 2609.784 ms
+[2026-11-01 00:32:25] [INFO]: GET /api/auth/me - - - - ms
+[2026-11-01 00:32:26] [INFO]: GET /api/auth/me 200 310 - 675.984 ms
+[2026-11-01 00:32:27] [INFO]: GET /api/investments 200 523 - 825.290 ms
+[2026-11-01 00:32:27] [INFO]: GET /api/auth/me 304 - - 866.551 ms
+[2026-11-01 00:32:28] [INFO]: GET /api/investments 304 - - 639.673 ms
+[2026-11-01 00:32:31] [INFO]: GET /api/investments/plans 304 - - 0.379 ms
+[2026-11-01 00:32:39] [INFO]: GET /api/dashboard/stats 200 657 - 900.197 ms
+[2026-11-01 00:32:40] [INFO]: GET /api/dashboard/stats 304 - - 1439.272 ms
+[2026-11-01 00:33:02] [INFO]: Admin successfully authenticated: admin@nexachain.ai
+[2026-11-01 00:33:02] [INFO]: POST /api/auth/admin-login 200 446 - 3023.945 ms
+[2026-11-01 00:33:02] [INFO]: GET /api/auth/me 200 327 - 310.939 ms
+[2026-11-01 00:33:03] [INFO]: GET /api/admin/stats 200 204 - 933.580 ms
+[2026-11-01 00:33:05] [INFO]: GET /api/admin/stats 304 - - 1492.013 ms
+[2026-11-01 00:33:07] [INFO]: GET /api/admin/users 304 - - 449.987 ms
+[2026-11-01 00:33:08] [INFO]: GET /api/admin/users 304 - - 472.398 ms
+[2026-11-01 00:33:41] [INFO]: GET /api/admin/users 304 - - 12584.542 ms
+[2026-11-01 00:33:42] [INFO]: GET /api/admin/investments 200 1188 - 12431.568 ms
+[2026-11-01 00:33:45] [INFO]: GET /api/admin/users 304 - - 4421.884 ms
+[2026-11-01 00:33:45] [INFO]: GET /api/admin/stats 304 - - 20022.085 ms
+[2026-11-01 00:33:45] [INFO]: GET /api/admin/investments 304 - - 3371.403 ms
+[2026-11-01 00:33:46] [INFO]: GET /api/admin/stats 304 - - 690.506 ms
+[2026-11-01 00:33:46] [INFO]: GET /api/admin/stats 200 204 - 750.463 ms
+[2026-11-01 00:33:47] [INFO]: GET /api/admin/stats 304 - - 846.880 ms
+[2026-11-01 00:38:04] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-01 00:38:04] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-01 00:38:56] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-01.uhpzdgm.mongodb.net/test
+[2026-11-01 00:38:56] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-01 00:38:56] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-11-01 00:38:56] [INFO]: 🚀 NexaChain API server running in [development] mode on port 5000
+[2026-11-01 00:39:50] [WARN]: Admin login attempted on standard investor route by: admin@nexachain.ai
+[2026-11-01 00:39:50] [INFO]: POST /api/auth/login 403 126 - 3371.332 ms
+[2026-11-01 00:39:51] [INFO]: New user registered successfully: user_isolation_1793473790214@example.com (RefCode: NEXAD1B72C)
+[2026-11-01 00:39:51] [INFO]: POST /api/auth/register 201 581 - 1294.595 ms
+[2026-11-01 00:39:52] [WARN]: Unauthorized admin login attempt by standard user: user_isolation_1793473790214@example.com
+[2026-11-01 00:39:52] [INFO]: POST /api/auth/admin-login 403 89 - 975.070 ms
+[2026-11-01 00:39:53] [INFO]: Admin successfully authenticated: admin@nexachain.ai
+[2026-11-01 00:39:53] [INFO]: POST /api/auth/admin-login 200 446 - 1315.893 ms
+[2026-11-01 00:39:55] [INFO]: User logged in: user_isolation_1793473790214@example.com [user]
+[2026-11-01 00:39:55] [INFO]: POST /api/auth/login 200 556 - 1487.301 ms
+[2026-11-01 00:41:40] [INFO]: User logged in: test@gmail.com [user]
+[2026-11-01 00:41:40] [INFO]: POST /api/auth/login 200 522 - 6679.573 ms
+[2026-11-01 00:41:44] [INFO]: GET /api/auth/me 200 310 - 4480.958 ms
+[2026-11-01 00:41:45] [INFO]: GET /api/dashboard/stats 304 - - 5423.815 ms
+[2026-11-01 00:41:48] [INFO]: GET /api/dashboard/stats 304 - - 3005.822 ms
+[2026-11-01 00:41:51] [INFO]: GET /api/referrals/direct 304 - - 360.464 ms
+[2026-11-01 00:41:51] [INFO]: GET /api/referrals/tree?depth=5 304 - - 369.263 ms
+[2026-11-01 00:41:52] [INFO]: GET /api/referrals/tree?depth=5 304 - - 469.164 ms
+[2026-11-01 00:41:52] [INFO]: GET /api/referrals/direct 304 - - 478.698 ms
+[2026-11-01 00:42:27] [INFO]: Binding new user (test2@gmail.com) under parent (test@gmail.com)
+[2026-11-01 00:42:27] [INFO]: New user registered successfully: test2@gmail.com (RefCode: NEXAF07276)
+[2026-11-01 00:42:27] [INFO]: POST /api/auth/register 201 575 - 1799.544 ms
+[2026-11-01 00:42:28] [INFO]: GET /api/auth/me 200 417 - 995.287 ms
+[2026-11-01 00:42:32] [INFO]: GET /api/dashboard/stats 200 653 - 4345.317 ms
+[2026-11-01 00:42:33] [INFO]: GET /api/dashboard/stats 304 - - 1424.066 ms
+[2026-11-01 00:42:41] [INFO]: User logged in: test@gmail.com [user]
+[2026-11-01 00:42:41] [INFO]: POST /api/auth/login 200 522 - 366.651 ms
+[2026-11-01 00:42:42] [INFO]: GET /api/auth/me 200 310 - 504.238 ms
+[2026-11-01 00:42:45] [INFO]: GET /api/dashboard/stats 200 657 - 3932.462 ms
+[2026-11-01 00:42:45] [INFO]: GET /api/referrals/direct 200 275 - 1855.875 ms
+[2026-11-01 00:42:45] [INFO]: GET /api/referrals/tree?depth=5 200 390 - 1995.420 ms
+[2026-11-01 00:42:45] [INFO]: GET /api/referrals/direct 304 - - 201.169 ms
+[2026-11-01 00:42:46] [INFO]: GET /api/referrals/tree?depth=5 304 - - 313.521 ms
+[2026-11-01 00:42:46] [INFO]: GET /api/dashboard/stats 304 - - 1222.003 ms
+[2026-11-01 00:42:51] [INFO]: GET /api/roi/history 304 - - 419.083 ms
+[2026-11-01 00:42:52] [INFO]: GET /api/roi/history 304 - - 363.483 ms
+[2026-11-01 00:42:54] [INFO]: GET /api/referrals/history 304 - - 388.966 ms
+[2026-11-01 00:42:54] [INFO]: GET /api/referrals/history 304 - - 290.408 ms
+[2026-11-01 00:42:55] [INFO]: GET /api/roi/history 304 - - 213.148 ms
+[2026-11-01 00:42:56] [INFO]: GET /api/roi/history 304 - - 342.559 ms
+[2026-11-01 00:42:57] [INFO]: GET /api/referrals/direct 304 - - 177.632 ms
+[2026-11-01 00:42:57] [INFO]: GET /api/referrals/tree?depth=5 304 - - 410.106 ms
+[2026-11-01 00:42:57] [INFO]: GET /api/referrals/direct 304 - - 306.992 ms
+[2026-11-01 00:42:57] [INFO]: GET /api/referrals/tree?depth=5 304 - - 466.861 ms
+[2026-11-01 00:43:06] [INFO]: GET /api/dashboard/stats 304 - - 1438.201 ms
+[2026-11-01 00:43:07] [INFO]: GET /api/dashboard/stats 304 - - 1330.933 ms
+[2026-11-01 12:33:57] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-01 12:33:58] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-01 12:33:58] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-11-01 12:33:58] [INFO]: 🚀 NexaChain API server running in [development] mode on port 5000
+[2026-11-01 12:35:53] [INFO]: New user registered successfully: sharidansari6@gmail.com (RefCode: NEXABDC5B8)
+[2026-11-01 12:35:53] [INFO]: POST /api/auth/register 201 565 - 651.918 ms
+[2026-11-01 12:35:54] [INFO]: GET /api/auth/me 200 328 - 200.726 ms
+[2026-11-01 12:35:54] [INFO]: GET /api/dashboard/stats 200 653 - 780.155 ms
+[2026-11-01 12:35:55] [INFO]: GET /api/dashboard/stats 304 - - 736.663 ms
+[2026-11-01 12:36:09] [INFO]: GET /api/investments 200 43 - 175.070 ms
+[2026-11-01 12:36:09] [INFO]: GET /api/investments 304 - - 172.583 ms
+[2026-11-01 12:36:12] [INFO]: GET /api/dashboard/stats 304 - - 858.088 ms
+[2026-11-01 12:36:12] [INFO]: GET /api/dashboard/stats 304 - - 737.171 ms
+[2026-11-01 12:36:15] [INFO]: GET /api/investments 304 - - 174.172 ms
+[2026-11-01 12:36:15] [INFO]: GET /api/investments 304 - - 177.060 ms
+[2026-11-01 12:36:19] [INFO]: GET /api/dashboard/stats 304 - - 717.384 ms
+[2026-11-01 12:36:19] [INFO]: GET /api/dashboard/stats 304 - - 844.655 ms
+[2026-11-01 12:36:35] [INFO]: GET /api/referrals/history 200 39 - 224.576 ms
+[2026-11-01 12:36:35] [INFO]: GET /api/referrals/history 304 - - 200.873 ms
+[2026-11-01 12:48:29] [INFO]: GET /api/investments 304 - - 1526.663 ms
+[2026-11-01 12:48:29] [INFO]: GET /api/investments 304 - - 201.148 ms
+[2026-11-01 12:48:37] [INFO]: GET /api/referrals/tree?depth=5 200 195 - 232.551 ms
+[2026-11-01 12:48:37] [INFO]: GET /api/referrals/tree?depth=5 304 - - 254.111 ms
+[2026-11-01 12:48:37] [INFO]: GET /api/referrals/direct 200 41 - 821.177 ms
+[2026-11-01 12:48:37] [INFO]: GET /api/referrals/direct 304 - - 184.730 ms
+[2026-11-01 12:58:51] [INFO]: GET /api/auth/me 304 - - 1144.887 ms
+[2026-11-01 12:58:51] [INFO]: GET /api/auth/me 304 - - 214.213 ms
+[2026-11-01 12:58:52] [INFO]: GET /api/referrals/direct 304 - - 741.794 ms
+[2026-11-01 12:58:52] [INFO]: GET /api/referrals/tree?depth=5 304 - - 818.650 ms
+[2026-11-01 12:58:52] [INFO]: GET /api/referrals/direct 304 - - 168.679 ms
+[2026-11-01 12:58:52] [INFO]: GET /api/referrals/tree?depth=5 304 - - 189.093 ms
+[2026-11-01 12:58:53] [INFO]: GET /api/roi/history 200 39 - 185.269 ms
+[2026-11-01 12:58:54] [INFO]: GET /api/roi/history 304 - - 184.193 ms
+[2026-11-01 12:59:04] [INFO]: GET /api/referrals/history 304 - - 191.376 ms
+[2026-11-01 12:59:04] [INFO]: GET /api/referrals/history 304 - - 177.097 ms
+[2026-11-01 12:59:22] [INFO]: GET /api/dashboard/stats 304 - - 675.857 ms
+[2026-11-01 12:59:23] [INFO]: GET /api/dashboard/stats 304 - - 754.902 ms
+[2026-11-01 13:01:56] [INFO]: POST /api/auth/register 400 131 - 256.142 ms
+[2026-11-01 13:02:26] [INFO]: User logged in: sharidansari6@gmail.com [user]
+[2026-11-01 13:02:26] [INFO]: POST /api/auth/login 200 540 - 458.088 ms
+[2026-11-01 13:02:27] [INFO]: GET /api/auth/me 304 - - 203.282 ms
+[2026-11-01 13:02:27] [INFO]: GET /api/dashboard/stats 304 - - 808.637 ms
+[2026-11-01 13:02:28] [INFO]: GET /api/dashboard/stats 304 - - 906.091 ms
+[2026-11-01 13:02:33] [INFO]: GET /api/investments 304 - - 197.450 ms
+[2026-11-01 13:02:33] [INFO]: GET /api/investments 304 - - 209.345 ms
+[2026-11-01 13:02:34] [INFO]: GET /api/referrals/tree?depth=5 304 - - 211.559 ms
+[2026-11-01 13:02:34] [INFO]: GET /api/referrals/direct 304 - - 235.758 ms
+[2026-11-01 13:02:34] [INFO]: GET /api/referrals/tree?depth=5 304 - - 206.783 ms
+[2026-11-01 13:02:34] [INFO]: GET /api/referrals/direct 304 - - 189.785 ms
+[2026-11-01 13:04:37] [INFO]: Binding new user (sharid@gmail.com) under parent (sharidansari6@gmail.com)
+[2026-11-01 13:04:37] [INFO]: New user registered successfully: sharid@gmail.com (RefCode: NEXAB4F7AD)
+[2026-11-01 13:04:37] [INFO]: POST /api/auth/register 201 573 - 714.907 ms
+[2026-11-01 13:04:37] [INFO]: GET /api/auth/me 200 433 - 321.799 ms
+[2026-11-01 13:04:38] [INFO]: GET /api/dashboard/stats 200 653 - 748.889 ms
+[2026-11-01 13:04:39] [INFO]: GET /api/dashboard/stats 304 - - 943.769 ms
+[2026-11-01 14:38:00] [ERROR]: Token verification failed: connect EACCES 159.41.207.19:27017
+[2026-11-01 14:38:00] [INFO]: GET /api/auth/me 401 55 - 30040.756 ms
+[2026-11-01 14:38:20] [ERROR]: Token verification failed: connect EACCES 159.41.207.19:27017
+[2026-11-01 14:38:20] [INFO]: GET /api/auth/me 401 55 - 30013.351 ms
+[2026-11-01 14:43:28] [INFO]: User logged in: sharidansari6@gmail.com [user]
+[2026-11-01 14:43:28] [INFO]: POST /api/auth/login 200 540 - 1768.604 ms
+[2026-11-01 14:43:28] [INFO]: GET /api/auth/me 200 328 - 308.386 ms
+[2026-11-01 14:43:30] [INFO]: GET /api/dashboard/stats 200 653 - 1603.841 ms
+[2026-11-01 14:43:31] [INFO]: GET /api/dashboard/stats 304 - - 777.535 ms
+[2026-11-01 14:43:40] [INFO]: GET /api/investments 304 - - 263.890 ms
+[2026-11-01 14:43:41] [INFO]: GET /api/investments 304 - - 226.809 ms
+[2026-11-01 14:43:42] [INFO]: GET /api/investments/plans 200 641 - 3.261 ms
+[2026-11-01 14:43:52] [INFO]: GET /api/investments/plans 304 - - 0.433 ms
+[2026-11-01 14:44:15] [INFO]: New investment created: 6ae702e77901455bccb1057e ($50) for user: 6ae6e4d17901455bccb104bc
+[2026-11-01 14:44:15] [INFO]: POST /api/investments 201 614 - 469.377 ms
+[2026-11-01 14:44:17] [INFO]: GET /api/auth/me - - - - ms
+[2026-11-01 14:44:18] [INFO]: GET /api/auth/me 200 328 - 192.325 ms
+[2026-11-01 14:44:18] [INFO]: GET /api/auth/me 304 - - 199.577 ms
+[2026-11-01 14:44:18] [INFO]: GET /api/investments 200 523 - 204.674 ms
+[2026-11-01 14:44:18] [INFO]: GET /api/investments 304 - - 266.228 ms
