@@ -15,7 +15,7 @@ const adminRoutes = require('./routes/adminRoutes');
 const app = express();
 
 // Enable CORS
-const allowedOrigin = process.env.CLIENT_URL || 'http://localhost:5173';
+const allowedOrigin = process.env.CLIENT_URL || 'https://polite-strudel-73a706.netlify.app/';
 app.use(
   cors({
     origin: (origin, callback) => {
