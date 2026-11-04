@@ -26,7 +26,7 @@ const startServer = async () => {
 
     // 4. Start HTTP Server
     const server = app.listen(PORT, () => {
-      logger.info(`🚀 NexaChain API server running in [${process.env.NODE_ENV || 'development'}] mode on port ${PORT}`);
+      logger.info(`🚀 NexaChain API server running in [${process.env.NODE_ENV || 'production'}] mode on port ${PORT}`);
     });
 
     // Catch unhandled promise rejections
