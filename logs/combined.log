@@ -326,3 +326,41 @@
 [2026-11-01 14:44:18] [INFO]: GET /api/auth/me 304 - - 199.577 ms
 [2026-11-01 14:44:18] [INFO]: GET /api/investments 200 523 - 204.674 ms
 [2026-11-01 14:44:18] [INFO]: GET /api/investments 304 - - 266.228 ms
+[2026-11-04 12:02:49] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-04 12:02:49] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-04 12:02:49] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-11-04 12:02:49] [INFO]: 🚀 NexaChain API server running in [production] mode on port 5000
+[2026-11-04 12:03:51] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-04 12:03:51] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-04 12:03:51] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-11-04 12:03:51] [INFO]: 🚀 NexaChain API server running in [production] mode on port 5000
+[2026-11-04 12:04:40] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-04 12:04:40] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-04 12:04:40] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-11-04 12:04:40] [INFO]: 🚀 NexaChain API server running in [production] mode on port 5000
+[2026-11-04 12:04:43] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-04 12:04:43] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-04 12:04:43] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-11-04 12:04:43] [INFO]: 🚀 NexaChain API server running in [production] mode on port 5000
+[2026-11-04 12:04:47] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-04 12:04:49] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-04 12:04:50] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-04 12:04:50] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-11-04 12:04:50] [INFO]: 🚀 NexaChain API server running in [production] mode on port 5000
+[2026-11-04 12:04:52] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-04 12:04:53] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-04 12:04:53] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-11-04 12:04:53] [INFO]: 🚀 NexaChain API server running in [production] mode on port 5000
+[2026-11-04 12:04:56] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-04 12:04:57] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-04 12:04:57] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-11-04 12:04:57] [INFO]: 🚀 NexaChain API server running in [production] mode on port 5000
+[2026-11-04 12:05:05] [INFO]: MongoDB Connected: ac-iy9hyrq-shard-00-00.uhpzdgm.mongodb.net/test
+[2026-11-04 12:05:05] [INFO]: ℹ️ Super Admin account already verified: admin@nexachain.ai
+[2026-11-04 12:05:05] [INFO]: 🕒 Automated Daily ROI Cron Job scheduled for 12:00 AM every day.
+[2026-11-04 12:05:05] [INFO]: 🚀 NexaChain API server running in [production] mode on port 5000
+[2026-11-04 12:05:45] [INFO]: User logged in: sharidansari6@gmail.com [user]
+[2026-11-04 12:05:45] [INFO]: POST /api/auth/login 200 540 - 253.747 ms
+[2026-11-04 12:05:45] [INFO]: GET /api/auth/me 200 328 - 170.597 ms
+[2026-11-04 12:05:46] [INFO]: GET /api/dashboard/stats 200 657 - 779.814 ms
+[2026-11-04 12:05:46] [INFO]: GET /api/dashboard/stats 304 - - 757.829 ms
